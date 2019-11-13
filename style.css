@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+header {
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+  align-items: center;
+  position: relative;
+}
+
+button {
+  font-size: 40px;
+  background-color: rgb(99, 99, 350);
+  border-radius: 30px;
+  margin: 20px;
+  box-shadow: 15px 10px 10px rgb(55, 66, 77, 100);
+}
+
+#container {
+  border: 40px solid rgb(50, 60, 49);
+  border-radius: 30px;
+  box-shadow: 15px 15px 15px rgb(3, 3, 3, 3);
+  display: grid;
+  grid: repeat(16, auto) / repeat(16, auto);
+  height: 650px;
+  margin: auto;
+  width: 900px;
+}
+
+#container > div {
+  background-color: rgb(204, 203, 203);
+}
